@@ -40,3 +40,6 @@ image{
   border-radius: 15rpx;
   font-size: 34rpx
 }
+.ss{
+  margin: 0px;
+}
