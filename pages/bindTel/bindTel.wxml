@@ -1,6 +1,6 @@
 <view>
   <text>当前手机号:{{user.phone}}</text>
   <view>
-    <view></view>
+    <view>手机验证</view>
   </view>
 </view>
