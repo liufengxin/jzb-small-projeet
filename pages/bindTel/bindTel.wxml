@@ -1,0 +1,6 @@
+<view>
+  <text>当前手机号:{{user.phone}}</text>
+  <view>
+    <view></view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<scroll-view class="main" scroll-y>
+  <view class='content'>
+    <view class='content-title'>用户登录</view>
+    <view class='clearBoth content-item'>
+      <text class='float_left'>用户名:</text>
+      <input class='float_left' placeholder="请填写用户名" bindinput='inputAccount'/>
+    </view>
+    <view class='clearBoth content-item'>
+      <text class='float_left'>密码:</text>
+      <input class='float_left' placeholder="请填写密码" type='password' bindinput='inputPwd'/>
+      <view class='content-fot'>忘记密码</view>
+    </view>
+  </view>
+  <view class='btn-info' bindtap='loginClick'>登录</view>
+</scroll-view>

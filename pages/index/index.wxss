@@ -1,0 +1,56 @@
+.user_info{
+  width: 100vw;
+  height: 350rpx;
+  position: relative;
+  overflow: hidden;
+}
+.user_info .bg{
+  position: absolute;
+  z-index: -1;
+}
+.user_info .avatar{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 56rpx auto 26rpx;
+  border-radius: 50%;
+  border: 4rpx solid #FFF;
+}
+.user_info .user_name{
+  font-size: 28rpx;
+  color: #FFF;
+  text-align: center;
+  line-height: 1em;
+}
+.user_info .relevance_login{
+  margin: 30rpx auto;
+  border-radius: 8rpx;
+  border: 2rpx solid #FFF;
+  width: 140rpx;
+  height: 40rpx;
+  font-size: 26rpx;
+  color: #FFF;
+  text-align: center;
+  line-height: 40rpx;
+}
+.user_item{
+  border-top: 16rpx solid #F5F5F5;
+  padding: 0 30rpx;
+}
+.user_item navigator,
+.user_item view{
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #E8E8E8;
+  position: relative;
+}
+.user_item image{
+  width: 48rpx;
+  height: 48rpx;
+  background: none;
+  margin-right: 20rpx;
+}
+.user_item text{
+  font-size: 28rpx;
+}
+.user_item .clearBorder{
+  border: none; 
+}
