@@ -1,0 +1,42 @@
+/**app.wxss**/
+image{
+  background: #ECECEC;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* float相关 */
+.clearBoth:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.clearBoth:before{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+/* btn相关 */
+.btn-info{
+  background: #3399ff;
+}
+.btn-danger{
+  background: #dd3333;
+}
+.btn-danger,.btn-info{
+  width: 85%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20rpx;
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 15rpx;
+  font-size: 34rpx
+}

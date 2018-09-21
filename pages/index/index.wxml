@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<scroll-view scroll-y class='main'>
+  <view class='user_info'>
+    <image class='bg' mode="aspectFill" src='/images/users/user_bg.jpg'></image>
+    <image class='avatar' src='{{userInfo.avatar}}'></image>
+    <view class='user_name'>{{userInfo.name}}</view>
+    <navigator hover-class="none" url="/pages/login/login" class='relevance_login'>点击登录</navigator>
+  </view>
+  <view class='user_item'>
+    <view class='clearBoth user-item-li' bindtap='changePwd'>
+      <image class='float_left' src=''></image>
+      <text class='float_left'>修改密码</text>
+    </view>
+    <view class='clearBoth user-item-li' bindtap='changePhone'>
+      <image class='float_left' src=''></image>
+      <text class='float_left'>更换手机号</text>
+      <text class='float_right'>{{userInfo.phone}}</text>
+    </view>
+  </view>
+  <view class='btn-danger' style='margin-top:160rpx'>切换账号</view>
+</scroll-view>
